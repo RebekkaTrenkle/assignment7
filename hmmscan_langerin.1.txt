@@ -1,0 +1,53 @@
+hmmscan results for job 1AEF3618-9126-11E9-A264-1F08E976C163.1
+
+Family-Id Family-Accession Clan Start End Ali-Start Ali-End Model-Start Model-End Bit-Score Ind.-E-value Cond.-E-value Description
+==================================================================================================================================
+
+Lectin_C PF00059.21 CL0056 212 321 213 321 2 108 89.03 3.0e-25 1.7e-29 Lectin C-type domain
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+MODEL  kkswqeAeeaCqkeggsLasvnskeelkflssllkksnkkfWigltdeksegewkwedgskltteqlyknw....psnnsenedCvelrekssgkwndesCnekkpfvCek
+MATCH  +k+w++Ae++C + +++L sv+s+ e++fl +++      +Wiglt+   eg+w+w+d+++++++q  ++w    p+n ++ne+C+++++ s + wnd++C++   f+C++
+PPL    79*******************************9..9******************************99****************************************96
+SEQ    PKTWYSAEQFCVSRNSHLTSVTSESEQEFLYKTA--GGLIYWIGLTKAGMEGDWSWVDDTPFNKVQSVRFWipgePNNAGNNEHCGNIKAPSLQAWNDAPCDKTFLFICKR
+
+==================================================================================================================================
+
+
+Search Details
+==============
+Date Started: 2019-06-17 18:34:05
+Cmd: hmmscan --cut_ga  --hmmdb pfam 
+Database: pfam,  version 32.0,  downloaded on 2019-05-20
+Query:  >sp|Q9UJ71|CLC4K_HUMAN C-type lectin domain
+ family 4 member K OS=Homo sapiens OX=9606
+ GN=CD207 PE=1 SV=2
+ MTVEKEAPDAHFTVDKQNISLWPREPPPKSGPSLVPGKTPTVRAALIC
+ LTLVLVASVLLQAVLYPRFMGTISDVKTNVQLLKGRVDNISTLDSEIK
+ KNSDGMEAAGVQIQMVNESLGYVRSQFLKLKTSVEKANAQIQILTRSW
+ EEVSTLNAQIPELKSDLEKASALNTKIRALQGSLENMSKLLKRQNDIL
+ QVVSQGWKYFKGNFYYFSLIPKTWYSAEQFCVSRNSHLTSVTSESEQE
+ FLYKTAGGLIYWIGLTKAGMEGDWSWVDDTPFNKVQSVRFWIPGEPNN
+ AGNNEHCGNIKAPSLQAWNDAPCDKTFLFICKRPYVPSEP
+
+Stats
+=====
+nhits:1
+elapsed:0.06
+Z:17929
+Z_setby:0
+n_past_msv:1178
+unpacked:1
+user:0
+domZ_setby:0
+nseqs:1
+n_past_bias:876
+sys:0
+n_past_fwd:26
+nmodels:17929
+nincluded:1
+n_past_vit:124
+nreported:1
+domZ:1
+
